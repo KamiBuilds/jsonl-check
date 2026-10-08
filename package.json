@@ -1,0 +1,23 @@
+{
+  "name": "jsonl-check",
+  "version": "1.0.0",
+  "description": "Dependency-free JSON Lines validator with line-level diagnostics.",
+  "type": "module",
+  "bin": {
+    "jsonl-check": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/check.js && node --check src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "jsonl",
+    "ndjson",
+    "validator",
+    "cli"
+  ],
+  "license": "MIT"
+}
